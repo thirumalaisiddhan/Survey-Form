@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Survey Form</h1>
-    <div>
+    <div id="hed">
+        <h1>Survey Form</h1>
+    </div>
+    
+    <div class="cont">
         <p>Name <input type="text" placeholder="Enter your name"></p>
         <p>Email <input type="text" placeholder="Enter your email"></p>
         <p>Age <input type="number" placeholder="Enter your age"></p>
@@ -17,13 +21,14 @@
             <option value="teacher">Teacher</option>
             <option value="others">Others</option>
         </select>
-        <p>Things that shuld be improve in the future</p>
+        <p>Things that shuld be improve in the future :
             <input type="checkbox" id="front" name="front" value="Bike">
-            <label for="vehicle1"> Front-end </label><br>
+            <label for="front"> Front-end </label>
             <input type="checkbox" id="back" name="back" value="Car">
-            <label for="vehicle2"> Back-end </label><br>
+            <label for="back"> Back-end </label>
             <input type="checkbox" id="design" name="design" value="Boat">
-            <label for="vehicle3"> Design</label><br>
+            <label for="design"> Design</label><br></p>
+            <button class="btn">Submit</button>
     </div>
 </body>
 </html>
